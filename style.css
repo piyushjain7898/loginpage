@@ -1,0 +1,43 @@
+
+
+#first {
+    background-color: antiquewhite;
+    width: 95px;
+
+}
+
+div {
+    background-color: antiquewhite;
+}
+
+.first {
+    color: red;
+    width: 40px;
+}
+
+main {
+    color: red;
+}
+
+main input:hover {
+    font-weight: bolder;
+    border: 2px solid antiquewhite;
+    cursor: pointer;
+}
+
+img {
+    position: absolute;
+    margin: -70px 0px 0px 200px;
+}
+@media only screen and (max-width:700px) {
+    
+    img{
+        width: 60px;
+        margin: -79px 0px 0px 46px;
+    }
+    #first{
+        margin: 0px 45px 0px 0px;
+    }
+
+    
+}
